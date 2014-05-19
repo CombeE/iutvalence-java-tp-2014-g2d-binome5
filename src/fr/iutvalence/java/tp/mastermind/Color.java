@@ -36,8 +36,13 @@ public enum Color
 	/**
 	 * la couleur violette
 	 */
-	VIOLET("V");
+	VIOLET("V"),
 
+	/**
+	 * la couleur turquoise
+	 */
+	TURQUOISE("T");
+	
 	/**
 	 * colorText donne une représentation texte aux couleurs.
 	 */

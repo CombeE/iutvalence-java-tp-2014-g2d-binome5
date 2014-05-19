@@ -22,7 +22,7 @@ public class MasterMind
 	/**
 	 * nombre maximum possible de tours pour une partie.
 	 */
-	public final static int MAXIMUM_NUMBER_OF_TURNS = 15;
+	public final static int MAXIMUM_NUMBER_OF_TURNS = 25;
 
 	/**
 	 * le code à deviner.
