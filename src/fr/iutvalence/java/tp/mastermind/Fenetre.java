@@ -23,19 +23,21 @@ public class Fenetre implements Runnable,ActionListener
 		
 		
 
-		JButton bouton = new BoutonCouleur(this);
-		bouton.addActionListener(this);
-		bouton.setFocusable(false);
+		PanneauEssai panneau = new PanneauEssai(this);
+		
+		panneau.setFocusable(false);
+		
+		
 
-		fenetre.getContentPane().add(bouton);
+		fenetre.getContentPane().add(panneau);
 
 		fenetre.setVisible(true);
 	}
 
 	public void actionPerformed(ActionEvent event)
 	{
-		//bouton.incrementCouleur;
-		//boutton.mettreAJourIcone;
+		
+		//this.splitPaneInferieur.getPanneauProposition()[0].getBoutons()[0];
 		
 		//attente de la référence du panneau
 	}
