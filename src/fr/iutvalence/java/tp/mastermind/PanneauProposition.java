@@ -19,6 +19,8 @@ public class PanneauProposition extends JPanel
 			this.add(boutons[indice]);
 			boutons[indice].addActionListener(fenetre);
 		}
+		BoutonValider btValider = new BoutonValider(fenetre);
+		this.add(btValider);
 	}
 	
 	public BoutonCouleur[] getBoutons()

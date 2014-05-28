@@ -38,7 +38,7 @@ public class BoutonCouleur extends JButton
 	}
 	
 	
-	private void mettreAJourIcone()
+	public void mettreAJourIcone()
 	{
 		this.setText("");
 		this.setIcon(new ImageIcon("image/"+Color.values()[this.numeroDeCouleur].toString()+".png"));

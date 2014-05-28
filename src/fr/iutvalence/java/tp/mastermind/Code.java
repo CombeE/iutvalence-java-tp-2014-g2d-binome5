@@ -19,7 +19,7 @@ public class Code
 	/**
 	 * constante définissant le nombre de pions dans un code.
 	 */
-	public final static int NUMBER_OF_PEGS_IN_THE_CODE = 5;
+	public final static int NUMBER_OF_PEGS_IN_THE_CODE = 4;
 
 	/**
 	 * Un code, c'est un tableau de pions.

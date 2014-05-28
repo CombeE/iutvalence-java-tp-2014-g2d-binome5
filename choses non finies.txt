@@ -1,0 +1,10 @@
+Bonjour Monsieur,
+
+Ce texte résume les difficultées rencontrées pour la finialisation de ce projet.
+L'auditeur d'évènement des boutons fonctione si on l'appelle sur lui même mais nous rencontrons des problèmes pour que la fenêtre
+graphique gère ces évènement elle-même.
+
+Après quelques essais infrucuteux, nous avons choisi de ne pas mettre de code dans la méthode obtenirCode() du bouton validé plutôt que
+de mettre des choses totalement incohérentes.
+
+Le reste fonctionne.
